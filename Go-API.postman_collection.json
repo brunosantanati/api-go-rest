@@ -96,6 +96,36 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Editar Personalidade",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nome\": \"Giovanni Battista Alberto Pirelli\",\n    \"historia\": \"Ele foi um industrial italiano, empresário, engenheiro e político, fundador da empresa Pirelli com sede em Milão, Itália.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/api/personalidades/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"personalidades",
+						"4"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
