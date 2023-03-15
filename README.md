@@ -8,7 +8,7 @@
 
 ## Comandos  
 ```
-Rodar na pasta do projeto:
+Rodar na pasta do projeto api-go-rest:
 go mod init github.com/brunosantanati/api-go-rest
 go get -u github.com/gorilla/mux
 go get -u gorm.io/gorm
@@ -23,6 +23,11 @@ OU
 docker inspect <id-container> | grep IPAddress
 Exemplo:
 docker inspect 2328 | grep IPAddress
+
+Rodar na pasta do projeto frontend-react-personalidades:
+npm install
+npm update
+npm start
 ```
 
 ## Links da aplicação
