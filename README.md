@@ -9,6 +9,24 @@
 Rodar na pasta do projeto:
 go mod init github.com/brunosantanati/api-go-rest 
 go get -u github.com/gorilla/mux  
+docker-compose up
+
+docker-compose exec postgres sh
+depois do comando acima:
+hostname -i
+OU
+docker inspect <id-container> | grep IPAddress
+Exemplo:
+docker inspect 2328 | grep IPAddress
+```
+
+## Links da aplicação
+```
+aplicação:
+http://localhost:8000
+
+pgadmin:
+http://localhost:54321
 ```
 
 ## SQL
