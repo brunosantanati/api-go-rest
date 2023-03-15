@@ -1,6 +1,7 @@
 # Curso [Go: desenvolvendo uma API Rest](https://cursos.alura.com.br/course/go-desenvolvendo-api-rest)  
 
 ## Links
+[Código original](https://github.com/alura-cursos/api-go-rest)  
 [gorilla/mux](https://github.com/gorilla/mux)  
 
 ## Comandos  
