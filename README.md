@@ -3,13 +3,18 @@
 ## Links
 [Código original](https://github.com/alura-cursos/api-go-rest)  
 [gorilla/mux](https://github.com/gorilla/mux)  
+[GORM ORM](https://gorm.io/)  
+[Conectar no Postgres usando GORM](https://gorm.io/docs/connecting_to_the_database.html#PostgreSQL)  
 
 ## Comandos  
 ```
 Rodar na pasta do projeto:
-go mod init github.com/brunosantanati/api-go-rest 
-go get -u github.com/gorilla/mux  
+go mod init github.com/brunosantanati/api-go-rest
+go get -u github.com/gorilla/mux
+go get -u gorm.io/gorm
+go get gorm.io/driver/postgres
 docker-compose up
+docker-compose down
 
 docker-compose exec postgres sh
 depois do comando acima:
