@@ -27,6 +27,7 @@ Exemplo:
 docker inspect 2328 | grep IPAddress
 
 Rodar na pasta do projeto frontend-react-personalidades:
+sudo apt install npm
 npm install
 npm update
 npm start
