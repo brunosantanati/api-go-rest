@@ -3,6 +3,7 @@
 ## Links
 [Código original](https://github.com/alura-cursos/api-go-rest)  
 [gorilla/mux](https://github.com/gorilla/mux)  
+[gorilla/handlers](https://github.com/gorilla/handlers)
 [GORM ORM](https://gorm.io/)  
 [Conectar no Postgres usando GORM](https://gorm.io/docs/connecting_to_the_database.html#PostgreSQL)  
 
@@ -11,6 +12,7 @@
 Rodar na pasta do projeto api-go-rest:
 go mod init github.com/brunosantanati/api-go-rest
 go get -u github.com/gorilla/mux
+go get github.com/gorilla/handlers
 go get -u gorm.io/gorm
 go get gorm.io/driver/postgres
 docker-compose up
@@ -32,8 +34,11 @@ npm start
 
 ## Links da aplicação
 ```
-aplicação:
+API Go backend:
 http://localhost:8000
+
+Aplicação frontend:
+http://localhost:3000
 
 pgadmin:
 http://localhost:54321
